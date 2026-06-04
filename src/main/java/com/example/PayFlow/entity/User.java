@@ -17,6 +17,9 @@ public class User {
     private String upiId;
     private Double balance = 5000.00;
 
+    public User() {
+    }
+
     public User(String firstName, String lastName, String mobileNumber, String upiId) {
         this.firstName = firstName;
         this.lastName = lastName;
