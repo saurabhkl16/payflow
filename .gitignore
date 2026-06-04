@@ -1,0 +1,64 @@
+# HELP FILE
+HELP.md
+
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# Application Properties (optional - if contains secrets)
+application-local.properties
+application-prod.properties
+
+# Environment Files
+.env
+
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
+
+# Lombok
+.lombok
+
+# Coverage Reports
+coverage/
+jacoco.exec
